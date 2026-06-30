@@ -1,0 +1,47 @@
+{
+  "name": "meridian-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.100.10",
+    "ag-grid-community": "^35.3.0",
+    "ag-grid-react": "^35.3.0",
+    "clsx": "^2.1.1",
+    "d3": "^7.9.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "recharts": "^3.8.1",
+    "rxjs": "^7.8.2",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@storybook/nextjs": "^10.3.6",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "playwright": "^1.60.0",
+    "prettier": "^3.8.3",
+    "prettier-plugin-tailwindcss": "^0.8.0",
+    "storybook": "^10.3.6",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.6"
+  }
+}

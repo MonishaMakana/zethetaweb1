@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+  --panel: #111827;
+  --border: rgba(255,255,255,0.08);
+
+  --text: #f9fafb;
+  --muted: #94a3b8;
+
+  --accent: #3b82f6;
+}
+
+.light-theme {
+  --bg: #f3f4f6;
+  --panel: #ffffff;
+  --border: rgba(0,0,0,0.08);
+
+  --text: #111827;
+  --muted: #6b7280;
+
+  --accent: #2563eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 18s linear infinite;
+}
+
+.ag-theme-quartz-dark {
+  --ag-background-color: #111827;
+  --ag-foreground-color: #f9fafb;
+
+  --ag-header-background-color: #0f172a;
+  --ag-header-foreground-color: #cbd5e1;
+
+  --ag-border-color: rgba(255,255,255,0.08);
+
+  --ag-row-hover-color: rgba(59,130,246,0.08);
+
+  --ag-selected-row-background-color: rgba(59,130,246,0.12);
+
+  border-radius: 16px;
+  overflow: hidden;
+}
